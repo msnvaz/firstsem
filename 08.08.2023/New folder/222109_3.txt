@@ -1,0 +1,16 @@
+Question 3
+
+1)main.c
+test_func2 should be corrected without breaking the line
+Return 0 should be corrected as return 0
+
+2)my_header1.h
+#include my_header.h statement should be in one line
+
+3)my_header2.h
+including my_header1.h will cause an infine recursion
+
+4)test1.c and test2.c
+prinf() statement should be on the same line
+since stdio.h header file is not included printf() function will not work 
+ 
