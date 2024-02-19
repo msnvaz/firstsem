@@ -75,9 +75,9 @@ int main(){
 	
 }
 
-int calculateArea(struct Rectangle *rect){
+int calculateArea(struct Rectangle *rectPtr){
 	float area;
-	area = (rect->length * rect->width);
+	area = (rectPtr->length * rectPtr->width);
 	printf("Area = %.2f",area);
 }
 
